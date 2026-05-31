@@ -1,13 +1,15 @@
 #include<iostream>
 using namespace std;
 
+
 int main() 
 {
-    int input = 4;
+    int rows = 6;
+    int columns = rows - 2;
 
-    for (int i=0; i<input; i++) 
+    for (int i = 0; i < columns; i++) 
     {
-        for (int j=0; j<input; j++)
+        for (int j = 0; j < rows; j++)
             cout << "*";
         cout << endl;
     }
