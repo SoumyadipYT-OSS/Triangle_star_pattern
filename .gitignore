@@ -1,0 +1,11 @@
+build/
+
+# MSVC Build Artifacts
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.log
+*.tlog
+*.lastbuildstate
+*.idb
