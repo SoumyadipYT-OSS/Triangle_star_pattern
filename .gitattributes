@@ -1,2 +1,15 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# 2. Force code files to use LF (Standard for Git/Unix)
+# This prevents "everything changed" errors when switching between Windows and Linux
+*.cpp text eol=lf
+*.h text eol=lf
+*.java text eol=lf
+
+# 3. Mark specific files as binary
+# This tells Git not to touch these files or show diffs for them
+*.exe binary
+*.obj binary
+*.pdb binary
+*.class binary
