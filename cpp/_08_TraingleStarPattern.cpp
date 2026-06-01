@@ -5,9 +5,9 @@ int main()
 {
     int n = 4;
     
-    for (int i=0; i<n; i++) 
+    for (int r=0; r<n; r++) 
     {
-        for (int j=0; j<=i; j++) 
+        for (int c=0; c<=r; c++) 
         {
             cout << "*";
         }
